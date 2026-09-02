@@ -1,0 +1,62 @@
+{
+  "active_algorithm": "Random Forest",
+  "metrics": {
+    "algorithm": "Random Forest",
+    "accuracy": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1_score": 1.0,
+    "roc_auc": 1.0,
+    "execution_time": 0.1365,
+    "confusion_matrix": [
+      [
+        70,
+        0
+      ],
+      [
+        0,
+        60
+      ]
+    ]
+  },
+  "feature_importances": {
+    "max_pkt_size": 0.2367,
+    "avg_pkt_size": 0.2281,
+    "min_pkt_size": 0.1155,
+    "src_port": 0.097,
+    "total_pkts": 0.0778,
+    "fwd_pkts": 0.0636,
+    "iat_mean": 0.0304,
+    "fwd_bytes": 0.0299,
+    "total_bytes": 0.0295,
+    "flow_duration": 0.0275,
+    "packet_rate": 0.0247,
+    "tcp_flags": 0.0214,
+    "protocol": 0.0096,
+    "byte_rate": 0.0053,
+    "dst_port": 0.0031
+  },
+  "feature_columns": [
+    "src_port",
+    "dst_port",
+    "protocol",
+    "flow_duration",
+    "total_pkts",
+    "total_bytes",
+    "packet_rate",
+    "byte_rate",
+    "fwd_pkts",
+    "fwd_bytes",
+    "avg_pkt_size",
+    "min_pkt_size",
+    "max_pkt_size",
+    "tcp_flags",
+    "iat_mean"
+  ],
+  "class_labels": [
+    "BENIGN",
+    "MALICIOUS"
+  ],
+  "dataset_name": "synthetic_unidirectional_flows.csv",
+  "total_samples": 650
+}

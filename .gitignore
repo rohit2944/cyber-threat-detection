@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+env/
+venv/
+ENV/
+*.sqlite3
+
+# Models & Uploaded Data
+backend/models/*.pkl
+!backend/models/.gitkeep
+
+# Node / React
+node_modules/
+dist/
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# IDE
+.vscode/
+.idea/
+.DS_Store

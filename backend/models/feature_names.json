@@ -1,0 +1,17 @@
+[
+  "src_port",
+  "dst_port",
+  "protocol",
+  "flow_duration",
+  "total_pkts",
+  "total_bytes",
+  "packet_rate",
+  "byte_rate",
+  "fwd_pkts",
+  "fwd_bytes",
+  "avg_pkt_size",
+  "min_pkt_size",
+  "max_pkt_size",
+  "tcp_flags",
+  "iat_mean"
+]
