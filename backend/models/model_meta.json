@@ -7,7 +7,7 @@
     "recall": 1.0,
     "f1_score": 1.0,
     "roc_auc": 1.0,
-    "execution_time": 0.1365,
+    "execution_time": 0.8357,
     "confusion_matrix": [
       [
         70,
